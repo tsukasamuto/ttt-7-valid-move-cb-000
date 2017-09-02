@@ -2,6 +2,8 @@
 def valid_move?(array, index_number)
   if position_taken? == fasle && index_number.between?(0,8)
     true
+  else
+    false
 end
 
 # re-define your #position_taken? method here, so that you can use it in the #valid_move? method above.
